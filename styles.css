@@ -1,0 +1,130 @@
+/* Reseteo es estilos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #030712;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+header {
+  text-align: start;
+  margin-bottom: 60px;
+  width: 100%;
+}
+
+.personal-data {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile-pic {
+  width: 90px;
+  height: 90px;
+  border-radius: 100%;
+  box-shadow: 0px 4px 10px rgb(0, 0, 0, 0.5);
+  transition: transform 0.3s;
+}
+
+.profile-pic:hover {
+  transform: scale(1.1);
+}
+
+h1 {
+  color: blue;
+}
+
+.description {
+  margin-top: 30px;
+  text-align: justify;
+}
+
+.experience {
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+h2 {
+  color: blue;
+}
+
+hr {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.group {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.experience-item {
+  background-color: #303030;
+  padding: 10px;
+  border-left: 4px solid blue;
+}
+
+.experience-item:hover {
+  background-color: violet;
+}
+
+.contact {
+  width: 70%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+}
+
+button {
+  margin-top: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+}
+
+button:hover {
+  background-color: violet;
+}
